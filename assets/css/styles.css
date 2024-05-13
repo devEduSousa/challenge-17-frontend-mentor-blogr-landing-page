@@ -1,0 +1,432 @@
+.hide {
+    display: none !important;
+}
+
+.bg-gradient {
+    background: linear-gradient(135deg, var(--very-light-red), var(--light-red)) !important;
+    color: var(--white) !important;
+}
+
+.slide {
+    right: 20px !important;
+}
+
+
+.rotate {
+    transform: rotate(180deg);
+}
+
+#container {
+    width: 100%;
+}
+
+#hero-container {
+    background-image: url('../images/bg-pattern-intro-mobile.svg');
+    background-position-x: -340px;
+    background-position-y: -290px;
+    background-repeat: no-repeat;
+    height: 550px;
+    border-radius: 0 0 0 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-container .bg-container {
+    background: linear-gradient(135deg, var(--very-light-red), var(--light-red));
+    width: 100vw;
+    height: 550px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 0 100px;
+}
+
+#hero-container header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px 0;
+    margin-bottom: 80px;
+    position: relative;
+}
+
+#hero-container header .menu-mobile {
+    width: 280px;
+    background-color: var(--white);
+    border-radius: 5px;
+    position: absolute;
+    top: 100px;
+    right: -500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+    transition: all 1s ease; 
+}
+
+#hero-container header .menu-mobile .option {
+    width: 100%;
+    text-decoration: none;
+    color: var(--very-dark-blue-primary);
+    margin-bottom: 10px;
+}
+
+#hero-container header .menu-mobile .option:last-child {
+    margin-bottom: 0;
+}
+
+#hero-container header .menu-mobile .option .title-option {
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+#hero-container header .menu-mobile .option .suboptions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    background-color: var(--grayish-blue);
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#hero-container header .menu-mobile .line {
+    width: 100%;
+    height: 1px;
+    background-color: var(--grayish-blue);
+}
+
+#hero-container header .menu-mobile .option.btn-option {
+    margin-bottom: 0;
+    background-color: transparent;
+    width: 150px;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
+#hero-container header .menu-desktop {
+    display: none;
+    flex: 1;
+    gap: 40px;
+    margin-left: 80px;
+}
+
+#hero-container header .menu-desktop .item {
+    text-decoration: none;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    position: relative;
+}
+
+#hero-container header .menu-desktop .item .title-item {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: hsla(0, 0%, 100%, .8);
+    transition: .3s;
+}
+
+#hero-container header .menu-desktop .item .title-item:hover {
+    color: var(--white);
+    text-decoration: underline;
+}
+
+#hero-container header .menu-desktop .item .subitems {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--white);
+    position: absolute;
+    left: -30px;
+    padding: 30px 60px 30px 20px;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+#hero-container header .menu-desktop .item .subitems .subitem {
+    width: 78px;
+    cursor: pointer;
+    color: var(--very-dark-blue-primary);
+    font-weight: 300;
+    transition: .3s;
+}
+
+#hero-container header .menu-desktop .item .subitems .subitem:hover {
+    font-weight: 600;
+}
+
+#hero-container header .buttons-desktop .btn-desktop {
+    margin-bottom: 0;
+    padding: 15px 40px;
+    border-radius: 50px;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--white);
+}
+
+#hero-container header .buttons-desktop .btn-desktop:last-child {
+    background-color: var(--white);
+    color: var(--light-red-primary);
+    transition: .3s;
+}
+
+#hero-container header .buttons-desktop .btn-desktop:last-child:hover {
+    background-color: hsl(0, 0%, 100%, .2);
+    color: var(--white);
+} 
+
+#hero-container header .buttons-desktop {
+    display: none;
+}
+
+#hero-container h1 {
+    font-family: "Overpass", sans-serif;
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+#hero-container p{
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+    color: var(--white);
+    padding: 0 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#hero-container .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#hero-container div .btn {
+    text-decoration: none;
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+#hero-container div .btn:first-child {
+    color: var(--light-red-primary);
+    background-color: var(--white);
+}
+
+#hero-container div .btn:first-child:hover {
+    color: var(--white);
+    background-color: var(--light-red-primary);
+}
+
+#hero-container div .btn:last-child {
+    color: var(--white);
+    background-color: transparent;
+    border: 1px solid var(--white);
+}
+
+#hero-container div .btn:last-child:hover {
+    color: var(--light-red-primary);
+    background-color: var(--white);
+}
+
+#introduction-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--very-dark-blue-primary);
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+}
+
+#introduction-container .introduction-img {
+    width: 100%;
+    height: 300px;
+    background-image: url('../images/illustration-editor-mobile.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+#introduction-container .introduction {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 250px;
+}
+
+#introduction-container h2,
+#introduction-container .introduction h3 {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+#introduction-container h2 {
+    margin: 80px auto 40px;
+    position: relative;
+}
+
+#introduction-container .introduction div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#introduction-container .introduction div h3 {
+    padding: 0 70px;
+}
+
+#introduction-container .introduction div p {
+    line-height: 25px;
+    padding: 0 15px;
+}
+
+#phones-container {
+    width: 100%;
+    height: 550px;
+    background: url('../images/bg-pattern-circles.svg'), var(--very-dark-gray-blue);
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position-x: -100px;
+    background-position-y: -200px;
+    border-radius: 0 100px 0 100px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+#phones-container .img-phones {
+    position: absolute;
+    background-image: url('../images/illustration-phones.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    top: -160px;
+}
+
+#phones-container .content-phones {
+    padding-top: 190px;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#phones-container .content-phones h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+#phones-container .content-phones p {
+    font-weight: 300;
+    color: var(--grayish-blue);
+    padding: 0 10px;
+    line-height: 25px;
+}
+
+#notebook-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 10px;
+    margin-bottom: 100px;
+}
+
+#notebook-container .img-notebook {
+    background-image: url('../images/illustration-laptop-mobile.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#notebook-container .content-notebook {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Overpass", sans-serif;
+    color: var(--very-dark-blue-primary);
+    gap: 40px;
+}
+
+#notebook-container .content-notebook div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#notebook-container .content-notebook div h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#notebook-container .content-notebook div p {
+    font-weight: 300;
+    line-height: 25px;
+    padding: 0 3px;
+}
+
+footer {
+    background-color: var(--very-dark-gray-blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 100px 0 0;
+    padding: 80px 0;
+    font-family: "Overpass", sans-serif;
+    gap: 40px;
+}
+
+footer img {
+    margin-bottom: 50px;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+}
+
+footer div span {
+    color: var(--white);
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+footer div a {
+    color: var(--grayish-blue);
+    font-weight: 300;
+    text-decoration: none;
+    transition: .3s;
+}

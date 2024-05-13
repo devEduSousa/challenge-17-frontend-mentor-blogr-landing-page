@@ -1,0 +1,444 @@
+@media(min-width: 375px) {
+    #hero-container header .menu-mobile {
+        width: 335px;
+    }
+
+    #hero-container h1 {
+        padding: 0 40px;
+    }
+
+    #hero-container p {
+        padding: 0 43px;
+    }
+
+    #introduction-container .introduction-img {
+        height: 310px;
+    }
+
+    #introduction-container h2, #introduction-container .introduction h3 {
+        font-size: 24px;
+    }
+
+    #introduction-container .introduction div p {
+        padding: 0px 40px;
+    }
+
+    #phones-container {
+        height: 600px;
+        background-size: 600px;
+        background-position-x: -110px;
+        background-position-y: -240px;
+    }
+
+    #phones-container .img-phones {
+        height: 353px;
+        top: -190px;
+    }
+
+    #phones-container .content-phones {
+        padding-top: 220px;
+        gap: 30px;
+    }
+
+    #phones-container .content-phones h3 {
+        font-size: 36px;
+    }
+
+    #phones-container .content-phones p {
+        padding: 0px 35px;
+    }
+
+    #notebook-container .img-notebook {
+        height: 350px;
+    }
+
+    #notebook-container .content-notebook div h3 {
+        font-size: 28px;
+    }
+
+    #notebook-container .content-notebook div p {
+        padding: 0px 30px;
+    }
+}
+
+@media(min-width: 425px) {
+    #hero-container header .menu-mobile {
+        width: 385px;
+    }
+
+    #hero-container h1 {
+        padding: 0 65px;
+    }
+
+    #hero-container p {
+        padding: 0px 80px;
+    }
+
+    #introduction-container .introduction-img {
+        height: 370px;
+    }
+
+    #introduction-container h2, #introduction-container .introduction h3 {
+        font-size: 30px;
+    }
+
+    #introduction-container .introduction div p {
+        padding: 0px 65px;
+    }
+
+    #phones-container {
+        background-size: 670px;
+        background-position-x: -130px;
+        background-position-y: -250px;
+        height: 620px;
+    }
+
+    #phones-container .img-phones {
+        top: -210px;
+        height: 400px;
+    }
+
+    #phones-container .content-phones {
+        padding-top: 260px;
+    }
+
+    #phones-container .content-phones p {
+        padding: 0px 60px;
+    }
+
+    #notebook-container .img-notebook {
+        height: 400px;
+    }
+
+    #notebook-container .content-notebook div h3 {
+        font-size: 32px;
+    }
+
+    #notebook-container .content-notebook div p {
+        padding: 0px 55px;
+    }
+}
+
+@media(min-width: 768px) {
+    #hero-container header .menu-mobile {
+        width: 250px;
+        top: 80px;
+        padding: 25px 30px;
+    }
+
+    #hero-container h1,
+    #hero-container p,
+    #hero-container .buttons {
+        width: 460px;
+        padding: 0 0 0 20px;
+    }
+
+    #introduction-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    #introduction-container .introduction {
+        width: 50%;
+        align-self: flex-start;
+        text-align: left;
+        padding: 0;
+        margin-bottom: 70px;
+    }
+
+    #introduction-container .introduction-img {
+        background-image: url('../images/illustration-editor-desktop.svg');
+        margin-bottom: 0;
+        width: 500px;
+        height: 500px;
+        position: absolute;
+        right: -140px;
+        top: 100px;
+    }
+
+    #introduction-container h2, #introduction-container .introduction h3 {
+        font-size: 28px;
+    }
+
+    #introduction-container h2 {
+        margin: 60px 40px 60px 0;
+    }
+
+    #introduction-container .introduction div h3 {
+        padding: 0 0 0 20px;
+        font-size: 24px;
+    }
+
+    #introduction-container .introduction div p {
+        padding: 0 0 0 20px;
+        font-size: 14px;
+    }
+
+    #phones-container {
+        background-size: 700px;
+        background-position-x: -150px;
+        background-position-y: -330px;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #phones-container .img-phones {
+        width: 410px;
+        height: 410px;
+        top: -50px;
+        left: 20px;
+    }
+
+    #phones-container .content-phones {
+        padding: 0;
+        width: 50%;
+        text-align: left;
+        margin-left: 440px;
+    }
+
+    #phones-container .content-phones p {
+        padding: 0 20px 0 0;
+    }
+
+    #notebook-container {
+        /* overflow: hidden; */
+        flex-direction: row;
+        position: relative;
+        margin-top: 100px;
+        height: 620px;
+    }
+
+    #notebook-container .img-notebook {
+        background-image: url('../images/illustration-laptop-desktop.svg');
+        position: absolute;
+        left: -300px;
+        height: 620px;
+    }
+
+    #notebook-container .content-notebook {
+        margin-left: 430px;
+        text-align: left;
+    }
+
+    #notebook-container .content-notebook div p {
+        padding: 0 20px 0 0;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+        align-items: flex-start;
+    }
+
+    footer div:first-child {
+        grid-column: span 3;
+    }
+
+    footer:nth-child(n+2) {
+        grid-column: span 1;
+    }
+}
+
+@media(min-width: 1024px) {
+    #hero-container header .menu-mobile {
+        width: 400px;
+    }
+    
+    #hero-container h1,
+    #hero-container p,
+    #hero-container .buttons {
+        width: 660px;
+    } 
+    
+    #introduction-container .introduction {
+        margin-bottom: 200px;
+        margin-left: 40px;
+    }
+
+    #introduction-container h2 {
+        margin: 90px 40px 60px 0;
+        font-size: 28px;
+    }
+
+    #introduction-container .introduction div p {
+        padding: 0 50px 0px 20px;
+    }
+
+    #introduction-container .introduction-img {
+        width: 600px;
+        height: 600px;
+        top: 50px;
+        right: -170px;
+    }
+
+    #phones-container .img-phones {
+        left: 50px;
+    }
+
+    #phones-container .content-phones p {
+        padding: 0;
+    }
+
+    #notebook-container {
+        height: 850px;
+    }
+
+    #notebook-container .content-notebook {
+        margin-left: 714px;
+    }
+
+    #notebook-container .img-notebook {
+        width: 900px;
+        height: 850px;
+    }
+
+    #notebook-container .content-notebook div p {
+        padding: 0 200px 0 0;
+    }
+
+    footer {
+        grid-template-columns: repeat(4, auto);
+        grid-template-rows: auto;
+    }
+
+    footer div {
+        width: 150px;
+    }
+
+    footer div a:hover {
+        text-decoration: underline;
+    }
+
+    footer div:first-child {
+        grid-column: span 1;
+    }
+
+    footer:nth-child(n+2) {
+        grid-column: span 1;
+    }
+}
+
+@media(min-width: 1440px) {
+    body {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    #container {
+        width: 1440px;
+    }
+
+    #hero-container {
+        background-image: url('../images/bg-pattern-intro-desktop.svg');
+        background-repeat: no-repeat;
+        background-position-x: -450px;
+        background-position-y: -1300px;
+    }
+
+    #hero-container,
+    #hero-container .bg-container {
+        height: 600px;
+    }
+
+    #hero-container header {
+
+        padding: 70px 155px 0;
+
+        margin-bottom: 130px;
+    }
+
+    #hero-container header .hamburger-icon {
+        display: none;
+    }
+
+    #hero-container header .menu-desktop {
+        display: flex;
+    }
+
+    #hero-container header .buttons-desktop {
+        display: flex;
+    }
+
+    #hero-container h1, #hero-container p, #hero-container .buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    #hero-container h1 {
+        font-size: 60px;
+    }
+
+    #hero-container p {
+        font-size: 20px;
+    }
+
+    #introduction-container h2 {
+        margin: 130px 40px 130px 0;
+        font-size: 40px;
+    }
+
+    #introduction-container .introduction {
+        margin-bottom: 300px;
+        margin-left: 100px;
+        gap: 80px;
+    }
+
+    #introduction-container .introduction div h3 {
+        font-size: 28px;
+    }
+
+    #introduction-container .introduction div p {
+        font-size: 16px;
+        padding: 0 196px 0px 20px;
+    }
+    
+    #introduction-container .introduction-img {
+        width: 900px;
+        height: 900px;
+        right: -260px;
+    }
+
+    #phones-container {
+        background-size: 1000px;
+        background-position-x: -210px;
+        background-position-y: -500px;
+        height: 400px;
+    }
+
+    #phones-container .img-phones {
+        width: 550px;
+        height: 550px;
+        top: -70px;
+        left: 120px;
+    }
+
+    #phones-container .content-phones {
+        margin-left: 725px;
+    }
+
+    #phones-container .content-phones p {
+        padding-right: 200px;
+    }
+
+    footer div {
+        width: 230px;
+    }
+}
+
+@media(min-width: 1441px) {
+    body {
+        background-color: #000;
+    }
+
+    #container {
+        background-color: var(--white);
+        z-index: 0;
+    }
+
+    #notebook-container {
+        overflow: hidden;
+    }
+}
